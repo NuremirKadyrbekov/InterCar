@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+.NavBar{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    position: fixed;
+    transition: 300ms;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    /* filter: blur(1.1); */
+    backdrop-filter: blur(20px);
+    /* background: filter(blur(1.1)); */
+    
+}
+.Logo{
+    display: flex;
+    
+}
+.MySVG{
+    width: 200px;
+    margin-top: -130px;
+    position: fixed;
+   
+    height: 200px;
+}
+
+
+.NavBar ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+.NavBar a{
+    text-decoration: none;
+}
+.NavBar ul li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 300ms;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.NavBar ul li:hover{
+    color: rgb(255, 67, 55);
+    transition: 150ms;
+    cursor: pointer;
+}
+.NavBar:hover{
+    border-bottom: 71px solid rgba(250, 241, 245, 0.2);
+    transition: 200ms;
+}
+.Container{
+    width: 100%;
+      height: 703px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 0px -35px;
+   
+
+}
+.BgcImg{
+    width: 100%;
+    /* height: ; */
+}
+
+.Content{
+    padding-top: 140px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 703px;
+   flex-direction: column;
+
+}
+.HeaderTitlies{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HeaderTitlies h2{
+    font-size: 40px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.HeaderTitlies h4{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.HeaderTitlies h1{
+    color: rgb(255, 67, 55);
+    font-size: 100px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    /* margin-bottom: 40px; */
+}
+.OldYear{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 230px;
+    height: 100px;
+}
+.DecarationText{
+    width: 11px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:rgb(255, 67, 55);
+    
+}
+.OldYear h3{
+    font-size: 40px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.OldYearBlock2{
+    font-size: 20px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.ContactButton{
+    width: 300px;
+    height: 70px;
+    margin-bottom: -30px;
+    border: none;
+    background-color:rgb(255, 67, 55);
+    font-size: 20px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    color: white;
+}

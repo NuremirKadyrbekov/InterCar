@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+
+
+.Main{
+  width: 10px;
+  height: 10px;
+  background: none;
+}
+.Container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    z-index: 1000;
+
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+  }
+  
+  /* Заголовок модального окна */
+  .Title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .Title h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Секция контактов */
+  .Contact {
+    margin-bottom: 20px;
+  }
+  
+  .Name, .Phone, .Text {
+    margin-bottom: 15px;
+  }
+  
+  .Name p, .Phone p, .Text p {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .Name input, .Phone input, .Text textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .Name input:focus, .Phone input:focus, .Text textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+  }
+  
+  /* Текстовая область */
+  .Text textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  /* Кнопка отправки */
+  .Send {
+    text-align: center;
+  }
+  .Send button{
+    width: 200px;
+    height: 50px;
+    margin-bottom: -30px;
+    border: none;
+    background-color:rgb(255, 67, 55);
+    font-size: 13px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    color: white;
+  }
+  .Close{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}

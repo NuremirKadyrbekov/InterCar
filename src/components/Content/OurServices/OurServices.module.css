@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+.Container{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+
+}
+.Title{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Title h1{
+    font-size: 50px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.Title h3{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+.OurServices{
+    width: 100%;
+    height: max-content;
+    padding: 50px;
+}
+.ServicesBlock{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    transition: 300ms;
+}
+
+.ItemContainer {
+    width: 450px;
+    margin: 0 auto;
+    text-align: start;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+.ItemIMG {
+    width: 100%;
+    height: auto;
+}
+.ItemDescription {
+    font-size: 18px;
+    margin: 15px 0;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #33333369;
+}
+.ItemPrice {
+    font-size: 24px;
+    color: #333;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ItemPrice span {
+    color: #333;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+.BookNow {
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: rgb(255, 67, 55);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 68, 55, 0.578);
+    background: none;
+    list-style: none;
+}
+.Buttons{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.ButtonNoActive{
+    width: 300px;
+    font-size: 30px;
+    height: 100px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    border-bottom: 1px solid #33333396;
+    transition: 100ms;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+}
+.Buttons button:hover{
+    transition: 100ms;
+    border-bottom: 5px solid #333333;
+
+}
+.ButtonActive{
+    width: 300px;
+    font-size: 30px;
+    height: 100px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    border-bottom: 1px solid #33333396;
+    transition: 100ms;
+    cursor: pointer;
+    background-color: #333333;
+    color: white;
+    
+}

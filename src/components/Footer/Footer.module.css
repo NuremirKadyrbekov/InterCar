@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+
+
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    padding: 10px 100px 0px 100px;
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+   
+}
+
+.socialMedia {
+    margin-bottom: 20px;
+    width: 300px;
+    font-size: 40px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+
+
+.socialMedia img {
+    width: 24px;
+    height: 24px;
+}
+
+.contactInfo {
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    width: 300px;
+    font-size: 15px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.contactInfo div {
+    margin-bottom: 10px;
+}
+.address{
+    font-size: 13px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    
+}
+
+.phone, .email {
+    flex: 1;
+    min-width: 200px;
+}
+
+.hours{ 
+    width: 300px;
+    flex-wrap: wrap;
+    width: 300px;
+    font-size: 15px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+.email a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 0.9em;
+    color: #bbb;
+    font-size: 10px;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}
+
+.icon{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
