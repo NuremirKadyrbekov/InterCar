@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/InterCar/static/css/main.326a1522.css",
+    "main.js": "/InterCar/static/js/main.7a30dd64.js",
+    "static/media/Bgc2.png": "/InterCar/static/media/Bgc2.adeed648693bd1fd1b09.png",
+    "static/media/2.png": "/InterCar/static/media/2.20870cdf01b955a011df.png",
+    "static/media/4.png": "/InterCar/static/media/4.ea62cb301478dd63ff4f.png",
+    "static/media/1.png": "/InterCar/static/media/1.27b852e6ed576c3e079e.png",
+    "static/media/3.png": "/InterCar/static/media/3.aa1560ca27ed73735e76.png",
+    "static/media/5.png": "/InterCar/static/media/5.4cef4d54fc5757243393.png",
+    "static/media/6.png": "/InterCar/static/media/6.32263eb40c6b33e58980.png",
+    "static/media/Content.png": "/InterCar/static/media/Content.b725b0d1a4d7664244f3.png",
+    "static/media/Logo.svg": "/InterCar/static/media/Logo.5b90ec4a564315759f5b9c622847de61.svg",
+    "index.html": "/InterCar/index.html",
+    "main.326a1522.css.map": "/InterCar/static/css/main.326a1522.css.map",
+    "main.7a30dd64.js.map": "/InterCar/static/js/main.7a30dd64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.326a1522.css",
+    "static/js/main.7a30dd64.js"
+  ]
+}
